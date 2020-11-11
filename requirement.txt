@@ -1,0 +1,8 @@
+>container beri id "main"
+>untuk judul beri id "title"
+>beri div id "img-div" yang didalamnya ada tag img dengan id "image"
+>di img-div ada element dengan id "img-caption" yang menjelaskan img-div
+>content desc beri id "tribute-info"
+>anchor tag kasih id "tribute-link" kirim ke wiki dengan target = _blank
+>img harus responsive berdasar WIDTH parent tanpa melebihi size asli
+>img harus center
