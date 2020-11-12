@@ -3,7 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     padding: 40px 15px;
     margin: 20px 0;
-    border-radius: 5px;
+    border-radius: 10px;
     color: #333;
 }
 #title {
@@ -22,6 +22,7 @@
 
 #img-div {
     background-color: white;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -30,4 +31,56 @@ img {
     height: auto;
     margin: 0 auto;
     display: block;
+}
+
+#img-caption {
+    text-align: center;
+    font-size: .96em;
+    /* border: aqua solid; */
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* #tribute-info {
+    width: 50vw;
+    margin:  20px auto;
+}
+
+@media(max-width: 600px) {
+    #tribute-info {
+        width: 100vw;
+    }
+} */
+
+ul {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#tribute-info > #title {
+    display: inline-block;
+    width: 100%;
+    margin: 30px 0;
+}
+
+#tribute-info li {
+    /* border: aqua solid; */
+    margin: 25px 0;
+}
+
+blockquote {
+    text-align: left;
+    font-style: italic;
+    max-width: 545px;
+    margin: 0 auto;
+    /* border:  crimson solid; */
+    /* margin: 0 auto 50px auto; */
+}
+
+#footer {
+    width: 80vw;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
 }
